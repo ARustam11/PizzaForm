@@ -99,3 +99,8 @@
 .confirm-image {
     height: 80%;
 }
+/* Confirm Text */
+.confirm-text {
+    color: #fff;
+    text-align: center;
+}
