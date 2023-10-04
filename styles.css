@@ -13,14 +13,16 @@
 }
 
 /* Header */
-.main-header {
+.main-header,
+.confirm-header {
     background-color: #661d1d;
     color: #fff;
     text-align: center;
     padding: 16px 0;
 }
 
-.main-heading {
+.main-heading,
+.confirm-heading {
     font-size: 32px;
 }
 
@@ -89,7 +91,8 @@
 }
 
 /* Image */
-.form-image {
+.form-image
+.confirm-image {
     max-width: 100%;
     height: auto;
     margin: 16px 0;
