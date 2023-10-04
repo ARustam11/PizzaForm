@@ -1,0 +1,97 @@
+/* Default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page body */
+.page-body {
+    background-color: #bdbcbc;
+    font-family: Arial, sans-serif;
+    line-height: 2;
+}
+
+/* Header */
+.main-header {
+    background-color: #661d1d;
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+}
+
+.main-heading {
+    font-size: 32px;
+}
+
+/* Main content area */
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 32px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(154, 34, 34, 0.468);
+}
+
+/* Form fieldsets and legends */
+.pizza-form-information,
+.pizza-form-delivery {
+    margin: 16px 0;
+    border: 1px solid #040404;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.form-information-legend {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Form labels */
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Form inputs and select menus */
+.form-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #632626;
+    border-radius: 5px;
+}
+
+/* Radio buttons and checkboxes */
+.form-radio,
+.form-checkbox {
+    margin-right: 8px;
+}
+
+/* Form buttons */
+.form-button {
+    background-color: #661d1d;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Footer */
+.main-footer {
+    text-align: center;
+    padding: 16px 0;
+    background-color: #661d1d;
+    color: #fff;
+    font-size: 12px;
+}
+
+/* Image */
+.form-image {
+    max-width: 100%;
+    height: auto;
+    margin: 16px 0;
+    border-radius: 5px;
+}

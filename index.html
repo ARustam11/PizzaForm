@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css" title="Style">
+    <title>Pizza Order</title>
+</head>
+<body class="page-body">
+    <!-- Main Header -->
+    <header class="main-header">
+        <h1 class="main-heading">Pizza order</h1> <!--Main heading, which we see on the top-->
+    </header>
+    <!-- Main Content -->
+    <main class="content">
+        <h2>Order Details</h2> <!--Subheading of the page-->
+        <form class="pizza-form" action="pizza-order.html" method="post"> <!--Form to order the pizza-->
+            <p>
+                Order the best pizza in Canada right now!
+                <img class="form-image" src="Assets/Pizza.jpeg" alt="Tasteful pizza" /> <!--Main image of pizza-->
+            </p>
+            <fieldset class="pizza-form-information"> <!--Fieldset with the information about the pizza-->
+                <legend class="form-information-legend">Pizza Information</legend> <!--This is the legend for the Pizza Information fieldset-->
+                <label class="form-label" for="num">Number of Pizzas:</label> <!--Label for Number of Pizzas-->
+                <input class="form-input" type="number" id="num" name="num" min="1" max="10" autofocus required> <!--Number of Pizzas-->
+                <br>
+                <label class="form-label" for="size">Pizza Size:</label> <!--Label for pizza size-->
+                <select class="form-input" id="size" name="size"> <!--Selection of pizza size-->
+                    <option value="small">Small</option> <!--Pizza size value-->
+                    <option value="medium">Medium</option> <!--Pizza size value-->
+                    <option value="large">Large</option> <!--Pizza size value-->
+                    <option value="extraLarge">Extra Large</option> <!--Pizza size value-->
+                </select>
+                <br>
+                <label class="form-label" for="Shape">Pizza Shape:</label> <!--Label for pizza shape-->
+                <label><input class="form-radio" type="radio" id="round" name="Shape" value="round" required>Round</label> <!--Round pizza shape-->
+                <label><input class="form-radio" type="radio" id="square" name="Shape" value="square" required>Square</label> <!--Square pizza shape-->
+                <br>
+                <label class="form-label">Toppings:</label> <!--Label for toppings-->
+                <label><input class="form-checkbox" type="checkbox" id="cheese" name="toppings" value="cheese">Cheese</label> <!--Cheese topping-->
+                <label><input class="form-checkbox" type="checkbox" id="pepperoni" name="toppings" value="pepperoni">Pepperoni</label> <!--Pepperoni toping-->
+                <label><input class="form-checkbox" type="checkbox" id="mushrooms" name="toppings" value="mushrooms">Mushrooms</label> <!--Mushrooms toping-->
+                <label><input class="form-checkbox" type="checkbox" id="onion" name="toppings" value="onion">Onion</label> <!--Onion toping-->
+                <label><input class="form-checkbox" type="checkbox" id="bacon" name="toppings" value="bacon">Bacon</label> <!--Bacon toping-->
+                <br>
+                <label class="form-label" for="crustType">Crust Type:</label> <!--Label for Crust Type-->
+                <select class="form-input" id="crustType" name="crustType"> <!--Selection of crust type-->
+                    <option value="neapolitan">Neapolitan</option> <!--Crust Type value-->
+                    <option value="chicagoDeepDish">Chicago Deep Dish</option> <!--Crust Type value-->
+                    <option value="newYork">New York</option> <!--Crust Type value-->
+                </select>
+            </fieldset>
+            <fieldset class="pizza-form-delivery"> <!--Fieldset with the information about the delivery-->
+                <legend>Delivery or Pickup</legend> <!--This is the legend for the delivery fieldset-->
+                <label class="form-label" for="deliveryMethod">Delivery Method:</label> <!--Label for the delivery method-->
+                <label><input class="radio" type="radio" id="takeout" name="deliveryMethod" value="takeout" required>Takeout</label> <!--Takeout option-->
+                <label><input class="radio" type="radio" id="delivery" name="deliveryMethod" value="delivery" required>Delivery</label> <!--Delivery option-->
+                <label><input class="radio" type="radio" id="eatin" name="deliveryMethod" value="eat-in" required>Eat-in</label> <!--Eat-in option-->
+                <br>
+                <label class="form-label" for="Address">Delivery Address:</label> <!--Label for the delivery address-->
+                <textarea class="form-input" id="Address" name="Address" rows="2" cols="30" required></textarea> <!--Address textarea-->
+                <br>
+                <label class="form-label" for="phone">Phone Number:</label> <!--Label for the phone number-->
+                <input class="form-input" type="tel" id="phone" name="phone" pattern="\([0-9]{3}\) [0-9]{3}-[0-9]{4}" placeholder="(437) 433-1234"> <!--Phone input-->
+                <br>
+            </fieldset>
+            <input class="form-button submit-button" type="submit" value="Order Pizza"> <!--Button for submitting the form-->
+            <input class="form-button reset-button" type="reset" value="Reset Form"> <!--Button for resetting the form-->
+        </form>
+    </main>
+    <!--Main Footer-->
+    <footer class="main-footer">
+        <p>&copy; 2023 Rustam's Pizza</p> <!--Copyright-->
+    </footer>
+</body>
+</html>
