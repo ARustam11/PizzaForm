@@ -89,7 +89,7 @@
 }
 
 /* Image */
-.form-image
+.form-image,
 .confirm-image {
     max-width: 100%;
     height: auto;
