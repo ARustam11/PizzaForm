@@ -97,12 +97,15 @@
 }
 
 .confirm-image {
-    height: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 40em;
+    margin: 20px auto;
 }
-/* Confirm Text */
+
+.confirm-content {
+    text-align: center;
+}
+
+/* Confirmation Text */
 .confirm-text {
     color: #661d1d;
     text-align: center;
