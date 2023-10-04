@@ -13,16 +13,14 @@
 }
 
 /* Header */
-.main-header,
-.confirm-header {
+.main-header {
     background-color: #661d1d;
     color: #fff;
     text-align: center;
     padding: 16px 0;
 }
 
-.main-heading,
-.confirm-heading {
+.main-heading {
     font-size: 32px;
 }
 
