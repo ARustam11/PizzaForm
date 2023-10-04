@@ -98,7 +98,9 @@
 
 .confirm-image {
     height: 70%;
-    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* Confirm Text */
 .confirm-text {
