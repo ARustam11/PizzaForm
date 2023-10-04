@@ -98,9 +98,11 @@
 
 .confirm-image {
     height: 80%;
+    width: auto;
 }
 /* Confirm Text */
 .confirm-text {
-    color: #fff;
+    color: #661d1d;
     text-align: center;
+    font-size: 40px;
 }
